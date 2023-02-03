@@ -1,9 +1,6 @@
 import React from 'react'
 import "./testimonials.css" 
 import Avatar1 from "../../assets/images/avatar1.jpg"
-import Avatar2 from "../../assets/images/avatar2.jpg"
-import Avatar3 from "../../assets/images/avatar3.jpg"
-import Avatar4 from "../../assets/images/avatar4.jpg"
 
 
 
