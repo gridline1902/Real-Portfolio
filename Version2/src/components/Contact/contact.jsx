@@ -1,6 +1,6 @@
 import React from 'react'
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
 import "./contact.css"
 
 import { MdOutlineEmail } from "react-icons/md"
@@ -9,15 +9,15 @@ import { AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai"
 
 
 const contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_2ri17bg', 'template_nblqi8p', form.current, 'qsIr9qBg-PQs4tp8Y')
+  //   emailjs.sendForm('service_2ri17bg', 'template_nblqi8p', form.current, 'qsIr9qBg-PQs4tp8Y')
 
-    e.target.reset()
-  };
+  //   e.target.reset()
+  // };
 
   return (
     <section id="contact">
@@ -52,12 +52,12 @@ const contact = () => {
 
         {/* End Of Contact Options */}
 
-        <form ref={form} onSubmit={sendEmail}>
+        {/* <form ref={form} onSubmit={sendEmail}>
           <input type="text" placeholder="Your Full Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea placeholder="Your Message" name="message" rows="7" required></textarea>
           <button className="btn btn-primary" type="submit">Send Message</button>
-        </form> 
+        </form>  */}
 
       </div>
 
