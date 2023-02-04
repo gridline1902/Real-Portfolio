@@ -3,9 +3,10 @@
     "name": "Michael Freeman",
     "icons": [
       {
-        "src": "./logo3.ico",
+        "src": "./icon-manifest.png",
         "sizes": "192x192",
-        "type": "image/ico"
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
     "start_url": "/#",
