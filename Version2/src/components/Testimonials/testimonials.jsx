@@ -20,6 +20,7 @@ const data = [
     avatar: Avatar1,
     name: "Clients",
     review: "I'm proud to say that my work has consistently received positive feedback from my clients. Check back soon to read some of their testimonials!"
+
   },
 ]
 
@@ -43,7 +44,7 @@ const testimonials = () => {
             <SwiperSlide key={index} className="testimonial">
               <div>
                 <div className="client__avatar">
-                  <img src={avatar} />
+                  <img src={avatar} alt="client-image1" />
                 </div>
                 <h5 className="client__name">{name}</h5>
                 <small className="client__review">
