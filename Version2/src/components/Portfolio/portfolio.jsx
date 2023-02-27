@@ -1,6 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
 import IMG1 from "../../assets/images/portfolio1.png"
+import IMG2 from "../../assets/images/portfolio2.png"
 
 const data = [
   {
@@ -9,6 +10,15 @@ const data = [
     title: "StreamIT",
     github: "https://github.com/gridline1902",
     demo: "https://gridline1902.pythonanywhere.com"
+
+  },
+
+  {
+    id: 2,
+    image: IMG2,
+    title: "BUDGETIT",
+    github: "https://github.com/gridline1902",
+    demo: "https://budget-it.up.railway.app"
 
   },
 ]
